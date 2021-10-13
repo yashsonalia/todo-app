@@ -1,0 +1,54 @@
+.button {
+	font-family: inherit;
+	font-size: 1.4rem;
+	font-weight: 600;
+
+	border: none;
+	cursor: pointer;
+
+	&.md {
+		// prettier-ignore
+		box-shadow: 
+		9px 9px 16px $grey-shadow-dark,
+		-9px -9px 16px  $grey-shadow-light;
+		border-radius: 1rem;
+		padding: 1.5rem 3rem;
+	}
+
+	&.primary {
+		color: $blue-light;
+		background: $grey-base;
+		transition: all 0.2s ease-in-out;
+
+		&:hover {
+			color: $grey-primary;
+			// prettier-ignore
+			background: linear-gradient(
+			135deg,
+			$blue-light 0%,
+			$blue-dark 100%,
+		);
+		}
+	}
+
+	&.cancel {
+		color: $red-light;
+		background: $grey-base;
+		transition: all 0.2s ease-in-out;
+
+		&:hover {
+			color: $grey-primary;
+			// prettier-ignore
+			background: linear-gradient(
+			135deg,
+			$red-light 0%,
+			$red-dark 100%,
+		);
+		}
+	}
+
+	&:disabled {
+		pointer-events: none;
+		opacity: 0.5;
+	}
+}

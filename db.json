@@ -1,0 +1,34 @@
+{
+  "items": [
+    {
+      "agenda": "Go to the mall",
+      "deadline": "11th Nov 2021",
+      "isComplete": true,
+      "id": 1
+    },
+    {
+      "agenda": "Purchase Pens ",
+      "deadline": "15th October 2021",
+      "isComplete": false,
+      "id": 2
+    },
+    {
+      "agenda": "Pick kids from school",
+      "deadline": "Today",
+      "isComplete": true,
+      "id": 3
+    },
+    {
+      "agenda": "Eat some sushi",
+      "deadline": "Today",
+      "isComplete": true,
+      "id": 4
+    },
+    {
+      "agenda": "Pay tuition fees",
+      "deadline": "Next week",
+      "isComplete": false,
+      "id": 5
+    }
+  ]
+}
