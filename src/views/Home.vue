@@ -8,6 +8,7 @@
 				<div class="addItem--container d-flex justify-content-end">
 					<Button
 						:btn="{
+							type: 'button',
 							classes: ['md', 'primary', 'addItem--button'],
 							content: 'New Item',
 							clickHandler: toggleForm,

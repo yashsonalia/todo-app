@@ -1,5 +1,9 @@
 <template>
-	<button :class="['button', ...btn.classes]" @click="btn.clickHandler()">
+	<button
+		:type="btn.type"
+		:class="['button', ...btn.classes]"
+		@click="btn.clickHandler()"
+	>
 		{{ btn.content }}
 	</button>
 </template>

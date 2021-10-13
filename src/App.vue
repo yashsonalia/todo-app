@@ -1,12 +1,14 @@
 <template>
 	<div id="app" class="app">
-		<router-view />
-		<nav class="nav" id="nav">
-			<div class="nav-list">
+		<main>
+			<router-view />
+		</main>
+		<footer class="footer" id="footer">
+			<div class="footer-nav">
 				<router-link to="/">Home</router-link> |
 				<router-link to="/about">About</router-link>
 			</div>
-		</nav>
+		</footer>
 	</div>
 </template>
 

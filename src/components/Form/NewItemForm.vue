@@ -30,7 +30,7 @@
 		<div class="form--button-group">
 			<Button
 				:btn="{
-					type: '',
+					type: 'button',
 					content: 'Cancel',
 					classes: ['md', 'form--button', 'cancel'],
 					clickHandler: toggleForm,
